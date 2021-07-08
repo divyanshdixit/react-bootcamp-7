@@ -1,2 +1,28 @@
 components => para.jsx
 
+grandparent
+App.jsx
+
+Restaurant.jsx: => h1 => res name => name will be taken fom data.json, p => details from data.json, RestaurantImages
+
+RestaurantImages.jsx  => image taken from Data.json file
+menu
+
+h1, p, image
+h1, p, image
+h1, p, image
+h1, p, image
+
+// unpack the value form object
+var props = {
+    date:
+    time:
+    val:
+}
+let {date, time, val} = props
+
+const arr = ['js', 'php', 'c'];
+let [x,,z] = arr;
+
+
+
