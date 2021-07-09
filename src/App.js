@@ -5,11 +5,15 @@ import Para from './Para';
 import Heading from './Heading';
 import Category from './Category';
 import Welcome from './Welcome';
+import Student from './Student';
 
 // parent component
 
 const currentDate = new Date().toLocaleDateString();
 const currentTime = new Date().toLocaleTimeString();
+
+var fname= "Abhishek";
+var lname = "Dixit";
 
 const getValue = () => {
   console.log('getValue');
@@ -38,10 +42,9 @@ function App() {
       (category == 'veg') ? <Category name="veg"/> : <Category name="non-veg"/> 
     }
 
-    {/* <Para date={currentDate} time={currentTime} val={getValue} x/> */}
-    {/* <List/> */}
-
     <Welcome/>
+
+    <Student prop1={fname} prop2={lname}/>
     </>
   );
 }

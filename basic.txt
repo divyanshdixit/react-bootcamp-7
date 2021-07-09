@@ -25,4 +25,13 @@ const arr = ['js', 'php', 'c'];
 let [x,,z] = arr;
 
 
+state:
 
+similar to props but it's private and fully contolled by component 
+create state only with in class component (before 16.8 version of react )
+
+updation of state is possible but props are not within a component.
+
+we can init props within state
+
+<Student prop1={sad} prop2={asdasd}/>

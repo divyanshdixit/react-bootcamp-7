@@ -4,6 +4,22 @@
 import React, { Component } from 'react'
 
 class Welcome extends Component{
+//   state without constru.
+    // state = {
+
+    // }
+    
+    // state within constru.
+   constructor(props) {
+    super(props)
+
+    this.state = {
+         name:'',
+         keyname:props.name
+    }
+
+}
+
     render(){
         return (
             <>
