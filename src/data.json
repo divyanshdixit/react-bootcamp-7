@@ -1,0 +1,27 @@
+{"const ListedItems1":[
+    {
+        "name":"res1",
+        "details":"something",
+        "resimage" : "../public/images/idli1.png"
+    },
+    {
+        "name":"res1",
+        "details":"something",
+        "resimage" : "../public/images/idli2.png"
+    },
+    {
+        "name":"res1",
+        "details":"something",
+        "resimage" : "../public/images/image1.png"
+    },
+    {
+        "name":"res1",
+        "details":"something",
+        "resimage" : "../public/images/image2.png"
+    },
+    {
+        "name":"res1",
+        "details":"something",
+        "resimage" : "../public/images/image3.png"
+    }
+]}
